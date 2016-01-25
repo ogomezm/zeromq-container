@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-MAINTAINER ZeroMQ Project <zeromq@imatix.com>
+MAINTAINER Oscar Gómez
 
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y git build-essential libtool autoconf automake pkg-config unzip libkrb5-dev
